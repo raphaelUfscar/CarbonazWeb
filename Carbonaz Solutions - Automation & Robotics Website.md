@@ -1,6 +1,6 @@
-# AutoBot Solutions - Automation & Robotics Website
+# Carbonaz Solutions - Automation & Robotics Website
 
-This is a modern, professional business website built for **AutoBot Solutions**, focusing on automation and robotics services.
+This is a modern, professional business website built for **Carbonaz Solutions**, focusing on automation and robotics services.
 
 ## 🌐 Live Demo
 The website is live at: [https://jlintxha.manus.space](https://jlintxha.manus.space)
@@ -82,4 +82,5 @@ Powered by **Vite** for lightning-fast development and optimized production buil
 
 ---
 
-Created by **Manus** for AutoBot Solutions.
+Created by **Manus** for Carbonaz Solutions.
+

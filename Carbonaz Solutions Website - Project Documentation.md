@@ -1,4 +1,4 @@
-# AutoBot Solutions Website - Project Documentation
+# Carbonaz Solutions Website - Project Documentation
 
 ## Website Overview
 
@@ -11,7 +11,7 @@ I have successfully created and deployed a professional automation and robotics 
 ## Website Features
 
 ### Design & Branding
-- **Company Name**: AutoBot Solutions
+- **Company Name**: Carbonaz Solutions
 - **Tagline**: "Automation & Robotics for Your Business"
 - **Color Scheme**: Green (#00FF88) and Black (#0A0A0A) as requested
 - **Modern, professional design** with smooth animations and hover effects
@@ -58,7 +58,7 @@ I have successfully created and deployed a professional automation and robotics 
      - Company Name (optional)
      - Message (required)
    - Contact information:
-     - Email: contact@autobotsolutions.com
+     - Email: contact@carbonazsolutions.com
      - Phone: +1 (555) 123-4567
      - Address: 123 Innovation Drive, Tech City, TC 12345
 
@@ -124,4 +124,5 @@ The complete source code is available in the `/home/ubuntu/automation-robotics-w
 - Build scripts
 
 Your website is now ready to help you attract customers and showcase your automation solutions!
+
 

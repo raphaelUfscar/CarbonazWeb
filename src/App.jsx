@@ -99,7 +99,7 @@ function App() {
           <div className="flex items-center justify-between">
             <div className="flex items-center space-x-2">
               <Bot className="w-8 h-8 text-primary" />
-              <span className="text-xl font-bold text-gradient-green">AutoBot Solutions</span>
+              <span className="text-xl font-bold text-gradient-green">Carbonaz Solutions</span>
             </div>
             
             {/* Desktop Navigation */}
@@ -243,7 +243,7 @@ function App() {
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
               <Badge className="mb-4 bg-primary/20 text-primary border-primary">
-                About AutoBot Solutions
+                About Carbonaz Solutions
               </Badge>
               <h2 className="text-3xl md:text-5xl font-bold mb-6">
                 Leading the <span className="text-gradient-green">Automation Revolution</span>
@@ -364,7 +364,7 @@ function App() {
                   </div>
                   <div>
                     <div className="font-semibold">Email</div>
-                    <div className="text-muted-foreground">contact@autobotsolutions.com</div>
+                    <div className="text-muted-foreground">contact@carbonazsolutions.com</div>
                   </div>
                 </div>
                 <div className="flex items-center space-x-4">
@@ -454,7 +454,7 @@ function App() {
             <div>
               <div className="flex items-center space-x-2 mb-4">
                 <Bot className="w-8 h-8 text-primary" />
-                <span className="text-xl font-bold text-gradient-green">AutoBot Solutions</span>
+                <span className="text-xl font-bold text-gradient-green">Carbonaz Solutions</span>
               </div>
               <p className="text-muted-foreground mb-4">
                 Leading the automation revolution with intelligent robotic solutions 
@@ -493,7 +493,7 @@ function App() {
             </div>
           </div>
           <div className="border-t border-border mt-8 pt-8 text-center text-muted-foreground">
-            <p>&copy; 2024 AutoBot Solutions. All rights reserved.</p>
+            <p>&copy; 2024 Carbonaz Solutions. All rights reserved.</p>
           </div>
         </div>
       </footer>
