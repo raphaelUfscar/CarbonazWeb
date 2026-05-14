@@ -84,3 +84,51 @@ Before the first deploy, enable GitHub Pages in the repository settings:
 - Contact form
 - Responsive layout
 - Smooth hover and animation effects
+
+## Design Notes
+
+The site uses a green and black technology-focused visual style:
+
+- Primary green: `#00FF88`
+- Dark green: `#1B4D3E`
+- Primary black: `#0A0A0A`
+- Charcoal: `#1A1A1A`
+- White: `#FFFFFF`
+
+Design direction:
+
+- Clean, modern, professional layout
+- High-contrast dark interface with green accents
+- Responsive header with mobile menu
+- Card-based service and portfolio sections
+- Clear calls to action for quotes, automation inquiries, and contact
+
+Messaging themes:
+
+- Automate repetitive work
+- Improve efficiency and reliability
+- Reduce operational cost
+- Use robotics and automation to support business growth
+
+## Deployment Targets
+
+Current deployment targets:
+
+- GitHub Pages: [https://raphaelufscar.github.io/CarbonazWeb/](https://raphaelufscar.github.io/CarbonazWeb/)
+- Cloudflare Pages: configured from this GitHub repository
+
+Recommended Cloudflare Pages settings:
+
+- Framework preset: `Vite`
+- Build command: `npm run build`
+- Build output directory: `dist`
+- Root directory: `/`
+- Node.js version: `24`
+
+## Next Steps
+
+- Replace placeholder contact details with real business contact information
+- Add real product, robotics, or customer images
+- Connect the contact form to a form backend or CRM
+- Add analytics once the final production host is chosen
+- Connect a custom domain for customer-facing use
