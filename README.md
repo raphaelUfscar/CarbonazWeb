@@ -1,73 +1,86 @@
 # CarbonazWeb
 
-This is a modern, professional business website built for **Carbonaz Solutions**, focusing on automation and robotics services.
+Modern business website for **Carbonaz Solutions**, focused on automation and robotics services.
 
-## 🌐 Live Demo
-The website is live at: [https://jlintxha.manus.space](https://jlintxha.manus.space)
+## Live Demo
 
-## 🚀 Technologies Used
+The GitHub Pages site will be available at:
 
-### Framework: **React**
-Built using **React**, the industry-standard JavaScript library for building high-performance user interfaces.
-- **Component-based architecture**: Organized and maintainable code.
-- **Reactive UI**: Instant updates without page reloads.
+[https://raphaelufscar.github.io/CarbonazWeb/](https://raphaelufscar.github.io/CarbonazWeb/)
 
-### Language: **JavaScript (JSX)**
-The project uses **JavaScript** with **JSX** (JavaScript XML).
-- Combines the power of JavaScript logic with HTML-like structure.
-- Handles dynamic content and form interactions seamlessly.
+## Technologies Used
 
-### Styling: **Tailwind CSS**
-Designed with **Tailwind CSS** for a modern, responsive look.
-- **Utility-first**: Fast development and consistent design.
-- **Responsive**: Optimized for Desktop, Tablet, and Mobile.
-- **Custom Theme**: Green (#00FF88) and Black (#0A0A0A) color scheme.
+- **React** for the UI
+- **JavaScript / JSX** for application code
+- **Tailwind CSS** for styling
+- **Lucide React** for icons
+- **Vite** for local development and production builds
+- **Docker** for local production-image testing
 
-### Icons: **Lucide React**
-Professional, clean iconography used throughout the site for a tech-forward aesthetic.
+## Project Structure
 
-### Build Tool: **Vite**
-Powered by **Vite** for lightning-fast development and optimized production builds.
+- `src/App.jsx`: Main website component and content
+- `src/App.css`: Custom styles, theme variables, and animations
+- `src/index.css`: Tailwind and global styles
+- `index.html`: Browser entry point
+- `vite.config.js`: Vite configuration, including GitHub Pages base path
+- `Dockerfile`: Production container build
+- `.github/workflows/deploy.yml`: GitHub Pages deployment workflow
 
----
+## Run Locally
 
-## 📁 Project Structure
+Install dependencies:
 
-- `src/App.jsx`: The main component containing all website content and logic.
-- `src/App.css`: Custom styles, theme variables, and animations.
-- `index.html`: The main entry point for the browser.
-- `package.json`: Project dependencies and scripts.
+```bash
+npm install
+```
 
----
+Start the development server:
 
-## 🛠️ How to Run Locally
+```bash
+npm run dev
+```
 
-1. **Install Dependencies**:
-   ```bash
-   npm install
-   ```
+Build for production:
 
-2. **Start Development Server**:
-   ```bash
-   npm run dev
-   ```
+```bash
+npm run build
+```
 
-3. **Build for Production**:
-   ```bash
-   npm run build
-   ```
+## Run With Docker
 
----
+Build the Docker image:
 
-## 📝 Features
-- **Hero Section**: High-impact messaging for automation services.
-- **Services**: Detailed breakdown of robotics solutions.
-- **About**: Company history and trust statistics.
-- **Portfolio**: Real-world case studies and success stories.
-- **Contact Form**: Fully functional lead generation form.
-- **Responsive Design**: Mobile-first approach.
-- **Animations**: Smooth fade-in and hover effects.
+```bash
+npm run docker:build
+```
 
----
+Run the production container locally:
 
-Created by **Manus** for Carbonaz Solutions.
+```bash
+npm run docker:run
+```
+
+The site will be available at:
+
+[http://localhost:8080](http://localhost:8080)
+
+## Deploy
+
+Deployment is handled by GitHub Actions. Every push to `main` builds the Vite app and publishes `dist` to GitHub Pages.
+
+Before the first deploy, enable GitHub Pages in the repository settings:
+
+1. Go to `Settings` -> `Pages`.
+2. Set `Source` to `GitHub Actions`.
+3. Push to `main` or run the `Deploy static content to Pages` workflow manually.
+
+## Features
+
+- Hero section for automation services
+- Services overview
+- About section with company statistics
+- Portfolio case studies
+- Contact form
+- Responsive layout
+- Smooth hover and animation effects
